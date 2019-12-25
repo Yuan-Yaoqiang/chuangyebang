@@ -22,10 +22,9 @@
                 <div class="cell time-cell">
                     <div class="left fl">时间范围：</div>
                     <div class="right fl">
-                        <span class="cell">最近一周<i class="close">x</i></span>
-                        <span class="cell">最近一月<i class="close">x</i></span>
-                        <span class="cell">最近半年<i class="close">x</i></span>
-                        <span class="cell">最近一年<i class="close">x</i></span>
+                        <span class="cell" data-key="day">最近一周<i class="close">x</i></span>
+                        <span class="cell" data-key="month">最近一月<i class="close">x</i></span>
+                        <span class="cell" data-key="year">最近一年<i class="close">x</i></span>
                     </div>
                 </div>
                 <div class="cell one-level-trade">
@@ -83,17 +82,18 @@
                 <div class="cell market-cell">
                     <div class="left fl">当日市值：</div>
                     <div class="right fl">
-                        <span class="cell">5-10亿元<i class="close">x</i></span>
-                        <span class="cell">50-100亿元<i class="close">x</i></span>
-                        <span class="cell">10亿元<i class="close">x</i></span>
-                        <span class="cell">100亿元<i class="close">x</i></span>
-                        <span class="cell">500亿元<i class="close">x</i></span>
+                        <span class="cell" data-min="0" data-max="100">0-100<i class="close">x</i></span>
+                        <span class="cell" data-min="100" data-max="200">100-200<i class="close">x</i></span>
+                        <span class="cell" data-min="200" data-max="300">200-300<i class="close">x</i></span>
+                        <span class="cell" data-min="300" data-max="500">300-500<i class="close">x</i></span>
+                        <span class="cell" data-min="500">500以上<i class="close">x</i></span>
                     </div>
                 </div>
                 <div class="selected">
                     <div class="left fl">已选条件：</div>
                     <div class="right fl">
                     </div>
+                    <div class="clear-all">清空筛选</div>
                 </div>
             </div>
         </div>

@@ -56,6 +56,10 @@ body{
     margin-left: 5px;
     color: #333;
 }
+.clear-all{
+    color: aqua;
+    cursor: pointer;
+}
 .condition .box div.cell .right span.cell.active{
     background: rgb(247, 247, 252);
     color: aqua;
